@@ -1,0 +1,36 @@
+<?xml version="1.0"?> <!-- -*- xml -*- -->
+
+<shape xmlns="http://www.daa.com.au/~james/dia-shape-ns"
+       xmlns:svg="http://www.w3.org/2000/svg">
+  <name>Chevron with text</name>
+  <description>Chevron with text for Chevron line diagrams</description>
+  <icon>chevron.png</icon>
+
+  <aspectratio type="free"/>
+  <textbox x1="0.5" y1="0" x2="2" y2="2"/>
+  <default-width>5</default-width>
+  <default-height>5</default-height>
+
+  <connections>
+    <point x="0" y="0"/> <!-- Top left -->
+    <point x="2" y="0"/> <!-- Top right -->
+    <point x="2.5" y="1"/> <!-- right middle -->
+    <point x="2" y="2"/> <!-- Bottom right -->
+    <point x="0" y="2"/> <!-- Bottom left -->
+    <point x="0.5" y="1"/> <!-- Left middle -->
+    <point x="1" y="0"/> <!-- Top middle -->
+    <point x="1" y="2"/> <!-- Bottom middle -->
+    <point x="2.25" y="0.5"/> <!-- Right top middle -->
+    <point x="2.25" y="1.5"/> <!--  -->
+    <point x="0.25" y="1.5"/> <!--  -->
+    <point x="0.25" y="0.5"/> <!--  -->
+    <point x="1.5" y="1" main="yes"/> <!-- Middle -->
+  </connections>
+
+  <svg:svg>
+    <svg:polygon 
+    style="fill: default; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1.17549e-39; stroke: #000000" points="0,0 2,0 2.5,1 2,2 0,2 0.5,1 "/>
+    <svg:polygon style="fill: none; stroke-opacity: 1; stroke-width: 0.001; stroke: #000000" points="0,0 2,0 2.5,1 2,2 0,2 0.5,1 "/>
+  </svg:svg>
+
+</shape>
